@@ -9,7 +9,7 @@ const defensePower = parseFloat(
 const defenserShield = prompt("Você possui um escudo? (Sim/Não)");
 
 let hitAttack = 0;
-
+//
 if (attackPower > defensePower && defenserShield === "Não") {
   hitAttack = attackPower - defensePower;
 }
